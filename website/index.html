@@ -59,7 +59,7 @@
                        </p>
                        <h2 style="font-size:60px;color:white;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                             <div class="word">    
-                                Innovation for brighter tomorrow.
+                                Innovation for a brighter tomorrow.
                             </div>   
                        </h2>
                     </center>       
@@ -69,56 +69,51 @@
             </div>
             <div class="tab-pane fade" id="pills-services" role="tabpanel" aria-labelledby="pills-services-tab">
                 <style>
-                    .neonText2 {
+                    #container {
+                        padding: 2rem;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 4rem;
+                    }
+                    
+                    a {
+                        text-align: center;
+                        font-size: 7em;
+                        margin-bottom: 0;
+                        margin-top: 0;
+                        line-height: 1;
+                        text-decoration: none;
                         color: #fff;
-                        text-shadow:
-                            0 0 7px #fff,
-                            0 0 10px #fff,
-                            0 0 21px #fff,
-                            0 0 42px #bc13fe,
-                            0 0 82px #bc13fe,
-                            0 0 92px #bc13fe,
-                            0 0 102px #bc13fe,
-                            0 0 151px #bc13fe;
+                    }
+
+                    a:nth-child(2) {
+                    font-family: Iceland;
+                    animation: neon2 1.5s ease-in-out infinite alternate;
+                    }
+
+                    @keyframes neon2 {
+                        from {
+                            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+                            0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
                         }
-
-                        h1_new {
-                            font-size: 50px;  
-                            animation: pulsate2 1.5s infinite alternate;  
+                        to {
+                            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+                            0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
                         }
-                                                
-                        @keyframes pulsate2 {
-                            
-                            100% {
+                    }
 
-                                text-shadow:
-                                0 0 4px #fff,
-                                0 0 11px #fff,
-                                0 0 19px #fff,
-                                0 0 40px #bc13fe,
-                                0 0 80px #bc13fe,
-                                0 0 90px #bc13fe,
-                                0 0 100px #bc13fe,
-                                0 0 150px #bc13fe;
-                            
-                            }
-                        
-                            0% {
-
-                                text-shadow:
-                                0 0 2px #fff,
-                                0 0 4px #fff,
-                                0 0 6px #fff,
-                                0 0 10px #bc13fe,
-                                0 0 45px #bc13fe,
-                                0 0 55px #bc13fe,
-                                0 0 70px #bc13fe,
-                                0 0 80px #bc13fe;
-
-                            }
-                        }        
+                    @media (max-width: 650px) {
+                        p {
+                            font-size: 3.5em;
+                        }
+                    }
                 </style>
-                <center><h1_new class="neonText2 pulsate2" style="padding-top:100px;">𝕊𝕖𝕣𝕧𝕚𝕔𝕖𝕤</h1_new></center>
+
+                <center>
+                    <div class="neon2" id="container">
+                        Services
+                    </div>                 
+                </center>
             </div>
              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                 <style>
