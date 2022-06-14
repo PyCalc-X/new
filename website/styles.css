@@ -78,3 +78,24 @@ body {
   background-repeat: no-repeat;
 }
 
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 50px;
+  
+  
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  overflow-y: hidden;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0; 
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 100px;
+  color: #7231E3;
+}
+
+
