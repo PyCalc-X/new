@@ -86,11 +86,12 @@ body {
 }
 .ml4 .letters {
   position: absolute;
+  margin: auto;
   left: 0;
   top: 0.3em;
   right: 0;
   opacity: 0; 
   font-family: 'Times New Roman', Times, serif;
-  padding-top: 10px;
+  padding-top:100px;
   color: #7231E3;
 }
