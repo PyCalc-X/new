@@ -72,3 +72,9 @@ html::-webkit-scrollbar-thumb {
   font-family: 'Joan', serif;
   font-family: 'Quicksand', sans-serif;
 }
+
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+
