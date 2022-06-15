@@ -74,7 +74,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background-image: url('example_img_girl.jpg');
   background-repeat: no-repeat;
 }
 
@@ -93,5 +92,5 @@ body {
   opacity: 0; 
   font-family: 'Garamond';
   padding-top:100px;
-  color: #7231E3;
+  color: #6F71F3 ;
 }
