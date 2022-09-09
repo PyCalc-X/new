@@ -31,16 +31,29 @@
               <a class="navbar-brand" href="index.html">
                 <img src="logo_with_white_bg.png" alt="" width="100" height="50">
               </a>
+              <div style="color:white;"><a href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" width="40" height="40"></a></div>
             </div>
         </nav>
         <div class="bg-video-wrap">
             <video src="abstract.mp4" loop muted autoplay></video>
-            <div class="overlay2" style="padding-top:150px;">
-                <div id="smart-button-container">
-                    <div style="text-align: center"><label for="description"> </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
-                      <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-                    <div style="text-align: center"><label for="amount"> </label><input name="amountInput" type="number" id="amount" value="" ><span> USD</span></div>
-                      <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+            <div class="overlay2" style="padding-top:210px;">
+                  <div id="smart-button-container">
+                    <div class="row g-2">
+                      <div class="col-md">
+                        <div class="form-floating">
+                          <textarea class="form-control" name="descriptionInput" id="description" maxlength="127" value="" placeholder="Description"></textarea>
+                          <label for="description">Description*</label>
+                        </div>
+                      </div>
+                      <!--<p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>-->
+                      <div class="col-md">
+                        <div class="form-floating">
+                          <input type="number" class="form-control" name="amountInput" id="amount" value="" placeholder="Amount in USD"><span></span>
+                          <label for="amount">Amount in USD*</label>
+                        </div>
+                      </div>
+                      <!--<p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>-->
+                    </div>  
                     <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
                       <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
                     <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
