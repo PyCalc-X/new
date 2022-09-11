@@ -187,3 +187,21 @@ video {
   z-index: 2;
 }
 
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: green;
+} 
